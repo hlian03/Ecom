@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Dear Lian Flower Shop</title>
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <!-- Header Section - Same as product page -->
+    <header>
+<p><a href="homepage.html">
+ <img src="image/logo.jpeg" class="logo" alt="Dear Lian Logo">
+</a></p>
+        <nav class="menu">
+              <a href="product.html">Flowers</a>
+              <a href="contact.html">Contact</a>  
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <h1>CONTACT US!</h1>
+    <p id="header">We'd love to hear from you! Send us a message below.</p>
+
+    <!-- Contact Form Section -->
+    <div class="contact-container">
+        
+    <!-- Contact Information -->
+     <div class="contact-info">
+      <h2>Get In Touch</h2>
+        <div class="info-box">
+          <h3>𖡡 Visit Our Shop</h3>
+           <p>123 Flower Venture<br>
+            Bloom City, NY 12345</p>
+            </div>
+
+            <div class="info-box">
+                <h3>📞 Call Us</h3>
+                <p>Phone: (555) 123-FLOWER<br>
+                Hours: Mon-Fri 9AM-6PM</p>
+            </div>
+
+            <div class="info-box">
+                <h3>✉ Email Us</h3>
+                <p>info@dearlian.com</p>
+            </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="form-container">
+              <h2>Send us a Message</h2>
+              <form id="contactForm" class="contact-form">
+                <!-- Name -->
+                <div class="form-group">
+                    <label for="name">Your Name *</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <!-- Email -->
+                <div class="form-group">
+                    <label for="email">Your Email *</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <!-- Phone (Optional) -->
+                <div class="form-group">
+                    <label for="phone">Phone Number (Optional)</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+
+                <!-- Subject -->
+                <div class="form-group">
+                    <label for="subject">What is this about? *</label>
+                    <select id="subject" name="subject" required>
+                        <option value="">Please choose...</option>
+                        <option value="question">General Question</option>
+                        <option value="order">Order Question</option>
+                        <option value="custom">Custom Flower Arrangement</option>
+                        <option value="wedding">Wedding Flowers</option>
+                        <option value="delivery">Delivery Question</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+
+                <!-- Message -->
+                <div class="form-group">
+                    <label for="message">Your Message *</label>
+                    <textarea id="message" name="message" rows="5" required 
+                              placeholder="Tell us what you need help with..."></textarea>
+                </div>
+
+                <!-- Newsletter -->
+                <div class="form-group">
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="newsletter" name="newsletter">
+                        <span class="checkmark"></span>
+                        Send me special offers and flower tips by email
+                    </label>
+                </div>
+
+                <!-- Submit Button -->
+                <button type="submit" class="submit-button">
+                    Send Message 🌸
+                </button>
+            </form>
+
+            <!-- Success Message -->
+            <div id="thank-you" class="thank-you-message" style="display: none;">
+                <h3>Thank You! 🌻</h3>
+                <p>Your message has been sent! We'll get back to you soon.</p>
+                <button onclick="resetForm()" class="reset-button">Send Another Message</button>
+            </div>
+    </div>
+</body>
+</html>

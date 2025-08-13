@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Grid - Dynamic</title>
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="product.css">
+    <script src="product.js" defer></script>
+</head>
+<body>
+    <!-- Header Section -->
+<header>
+<p><a href="homepage.html">
+ <img src="image/logo.jpeg" class="logo" alt="Dear Lian Logo">
+</a></p>
+        <nav class="menu">
+              <a href="product.html">Flowers</a>
+              <a href="contact.html">Contact</a>  
+              <a href="">Cart 🛒</a>         </nav>
+    </header>
+ <!-- Search and Controls -->
+    <div class="controls">
+        <input type="text" id="searchInput" placeholder="Search products">
+        <button onclick="searchProducts()">Search</button>
+        <button onclick="clearSearch()">Clear</button>
+        <button onclick="sortByPrice()">Sort by Price</button>
+    </div> 
+    <!-- Main Heading -->
+    <h1>One And Only Dear Lian!</h1>
+    <p id="header">Here you can find a variety of flowers available for purchase.</p>
+
+
+
+    <!-- Loading and Error States -->
+    <div id="loading" class="loading">Loading products...</div>
+    <div id="error" class="error" style="display: none;"></div>
+    
+    <!-- Product Grid Container -->
+    <div id="product-grid" class="product-grid"></div>
+
+    <!-- Link to external JavaScript file -->
+
+<footer>
+   <div class="social-media">
+      <h3>Follow Our Blooming Journey</h3>
+      <div class="social-links">
+         <a href="https://instagram.com/dearlianflowers" class="social-link" title="Instagram">Instagram</a>
+         <a href="https://facebook.com/dearlianflowers" class="social-link" title="Facebook">Facebook</a>
+         <a href="https://twitter.com/dearlianflowers" class="social-link" title="Twitter">Twitter</a>
+         <a href="https://pinterest.com/dearlianflowers" class="social-link" title="Pinterest">Pinterest</a>
+         <a href="https://tiktok.com/@dearlianflowers" class="social-link" title="TikTok">TikTok</a>
+      </div>
+   </div>
+   <div>
+      <p>&copy; 2025 Dear Lian Flowers | Bringing Beauty to Every Moment | Fresh • Local • Artisan</p>
+   </div>
+</footer>
+</body>
+</html>

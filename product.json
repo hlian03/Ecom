@@ -1,0 +1,101 @@
+{
+"products": [
+    {
+      "id": 1,
+      "name": "Vibrant Escape",
+      "price": 200,
+      "image": "../image/flower-1.jpg",
+      "description": "A burst of ocean-kissed blues and shimmering crystal tones, this arrangement feels like a getaway in full bloom. Every petal dances in sunlight, drawing you into a world where beauty thrives without boundaries.",
+      "category": "flowers"
+    },
+    {
+      "id": 2,
+      "name": "Garden Party",
+      "price": 150,
+      "image": "../image/flower-2.jpg",
+      "description": "Lush green blooms mingle with soft silver accents, creating a cheerful and lively bouquet perfect for celebrations under open skies. It's a floral gathering of elegance and joy.",
+      "category": "flowers"
+    },
+    {
+      "id": 3,
+      "name": "Cabana Breeze",
+      "price": 145.25,
+      "image": "../image/flower-3.jpg",
+      "description": "Soft tropical hues sway together in a light, airy composition. Like a gentle seaside wind, this bouquet brings calm warmth and a hint of island adventure.",
+      "category": "flowers"
+    },
+    {
+      "id": 4,
+      "name": "Sweet Hydrangea",
+      "price": 170,
+      "image": "../image/flower-4.jpg",
+      "description": "Blushing pink and deep midnight petals entwine with sparkling dew-like details, giving the sense of a romantic evening garden touched by moonlight.",
+      "category": "flowers"
+    },
+    {
+      "id": 5,
+      "name": "Luxe Paradise",
+      "price": 100.40,
+      "image": "../image/flower-5.jpg",
+      "description": "Golden tones and velvety petals capture the essence of a tropical escape, where every flower blooms in opulence and serenity.",
+      "category": "flowers"
+    },
+    {
+      "id": 6,
+      "name": "Pink Cotton Candy",
+      "price": 95.00,
+      "image": "../image/flower-6.jpg",
+      "description": "A whimsical swirl of pastel pinks and soft sunset shades, this bouquet is playful, airy, and delightfully sweet — a treat for the eyes.",
+      "category": "flowers"
+    },
+    {
+      "id": 7,
+      "name": "Sunflowers And Love Knots",
+      "price": 63.75,
+      "image": "../image/flower-7.jpg",
+      "description": "Radiant golden blooms with tied stems symbolize warmth, loyalty, and the simple joy of summer afternoons.",
+      "category": "flowers"
+    },
+    {
+      "id": 8,
+      "name": "Chantilly Elegance",
+      "price": 111.00,
+      "image": "../image/flower-8.jpg",
+      "description": "Layered ivory petals with a delicate blush undertone exude grace and refinement, reminiscent of lace and soft candlelight.",
+      "category": "flowers"
+    },
+    {
+      "id": 9,
+      "name": "Wilde Blue",
+      "price": 83.40,
+      "image": "../image/flower-9.jpg",
+      "description": "A captivating blend of sapphire and indigo petals, evoking wild meadows kissed by the early morning mist.",
+      "category": "flowers"
+    },
+    {
+      "id": 10,
+      "name": "Botanical Joy",
+      "price": 111.00,
+      "image": "../image/flower-10.jpg",
+      "description": "A lively composition bursting with rainbow-hued blooms, each petal telling a story of joy, life, and abundance.",
+      "category": "flowers"
+    },
+    {
+      "id": 11,
+      "name": "Belle De Jour",
+      "price": 63.75,
+      "image": "../image/flower-11.jpg",
+      "description": "Classic cream blossoms accented with gentle greenery create a timeless bouquet perfect for any moment worth cherishing.",
+      "category": "flowers"
+    },
+    {
+      "id": 12,
+      "name": "Perfect Yellow",
+      "price": 111.00,
+      "image": "../image/flower-12.jpg",
+      "description": "Bright, sunlit petals radiate optimism and warmth, making this arrangement the embodiment of happiness in bloom.",
+      "category": "flowers"
+    }
+  ]
+}
+
