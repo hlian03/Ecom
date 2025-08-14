@@ -126,45 +126,4 @@ document.addEventListener('DOMContentLoaded', function() {
     loadProducts();
 });
 
-// ADVANCED PRODUCT MANAGER CLASS 
-// Product Manager Class for more advanced usage
-class ProductManager {
-    constructor() {
-        this.products = [];
-    }
 
-    async initialize() {
-        this.products = await fetchProductsFromJSON();
-        return this.products;
-    }
-
-    getProductById(id) {
-        return this.products.find(product => product.id === parseInt(id));
-    }
-
-    getProductsByCategory(category) {
-        return this.products.filter(product => product.category === category);
-    }
-
-    searchProducts(query) {
-        const lowercaseQuery = query.toLowerCase();
-        return this.products.filter(product =>
-            product.name.toLowerCase().includes(lowercaseQuery) ||
-            product.description.toLowerCase().includes(lowercaseQuery)
-        );
-    }
-
-    getPriceRange() {
-        const prices = this.products.map(p => p.price);
-        return {
-            min: Math.min(...prices),
-            max: Math.max(...prices)
-        };
-    }
-
-    getProductsInPriceRange(min, max) {
-        return this.products.filter(product => 
-            product.price >= min && product.price <= max
-        );
-    }
-}
