@@ -28,7 +28,7 @@ async function fetchProductsFromJSON() {
     }
 }
 
-// ===== HTML GENERATION FUNCTIONS =====
+//  HTML GENERATION FUNCTIONS 
 // Function to create HTML for a single product
 function createProductHTML(product) {
     return `
